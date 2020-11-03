@@ -41,42 +41,50 @@
             <div class="col-md-12 contact-row-2">
               <form>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
+                  <label for="contact-name">Name</label>
                   <input
-                    type="email"
+                    type="text"
                     class="form-control"
-                    id="exampleInputEmail1"
+                    id="contact-name"
                     aria-describedby="emailHelp"
+                    required
                   />
-                  <small id="emailHelp" class="form-text text-muted"
-                    >We'll never share your email with anyone else.</small
-                  >
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
+                  <label for="contact-email">E-Mail</label>
                   <input
-                    type="password"
+                    type="text"
                     class="form-control"
-                    id="exampleInputPassword1"
+                    id="contact-email"
+                    aria-describedby="emailHelp"
+                    required
                   />
+                  <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea 
+                    class="form-control" 
+                    id="message" 
+                    rows="3"
+                    placeholder="type your message here"
+                    required
+                    ></textarea>
+                  </div>
                 </div>
-                <div class="form-group form-check">
-                  <input
-                    type="checkbox"
-                    class="form-check-input"
-                    id="exampleCheck1"
-                  />
                   <label class="form-check-label" for="exampleCheck1"
-                    >Check me out</label
+                    >Send my message</label
                   >
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary my-button">Submit</button>
               </form>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <footer>
+      <p>Rick Hates Flexbox</p>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

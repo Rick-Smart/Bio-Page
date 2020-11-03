@@ -24,18 +24,30 @@ nav ul {
 }
 .about-me-main, .contact-main{
   margin-top: 20px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   background-color: white;
   color: teal;
+}
+.about-me-main{
+
 }
 .about-me-card, .contact-card{
   border: 2px solid lightgrey;
   border-radius: 5px;
 }
+.contact-main{
+  
+}
+}
 #about-me-img {
   float: left;
   border-radius: 10px;
   
+}
+
+.my-button, .form-check-label{
+  width: 160px;
+  margin: 5px 35% 15px 35%;
 }
 footer{
   background-color: lightblue;
