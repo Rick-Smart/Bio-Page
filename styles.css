@@ -1,0 +1,46 @@
+#name-header {
+  display: flex;
+  float: left;
+  background-color: teal;
+  margin: 0 auto;
+  border-radius: 2px;
+  padding: 5px;
+}
+nav {
+  width: 98%;
+  margin: 0 auto;
+  background-color: lightblue;
+  height: auto;
+  border-radius: 5px;
+}
+nav ul {
+  padding: 4.5px;
+}
+.about-me-main {
+  display: flex;
+  flex: wrap;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: white;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  color: teal;
+}
+#about-me-img {
+  float: left;
+}
+footer {
+  display: flex;
+  background-color: lightblue;
+  height: 40px;
+  width: 100%;
+  clear: both;
+  position: sticky;
+  bottom: 0;
+  margin-top: 120px;
+  justify-content: center;
+}
+footer p {
+  opacity: 0.5;
+  margin-top: 5px;
+}
