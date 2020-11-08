@@ -22,39 +22,36 @@ nav {
 nav ul {
   padding: 4.5px;
 }
-.about-me-main, .contact-main{
+.about-me-main, .contact-main, .portfolio-main{
   margin-top: 20px;
-  /* margin-left: 20px; */
   background-color: white;
   color: teal;
 }
-.about-me-main{
-
-}
-.about-me-card, .contact-card{
+.about-me-card, .contact-card, .portfolio-card{
   border: 2px solid lightgrey;
   border-radius: 5px;
-}
-.contact-main{
-  
 }
 }
 #about-me-img {
   float: left;
-  border-radius: 10px;
-  
+  border-radius: 15px;
 }
-
+.responsive-img{
+  width: 100%;
+  height: auto;
+}
 .my-button, .form-check-label{
   width: 160px;
   margin: 5px 35% 15px 35%;
 }
+
 footer{
   background-color: lightblue;
   width: 100%;
   text-align: center;
-  position: absolute;
+  position: fixed;
   bottom: 0;
+  
   
 }
 footer p {
